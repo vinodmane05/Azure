@@ -1,12 +1,3 @@
-
-variable "location" {
-  type        = string
-  description = "Location of resource group"
-  default     = ""
-}
-
-variable "name" {
-  type        = string
-  description = "Name of resource group"
-  default     = ""
-}
+variable "virtual_network_name" {}
+variable "location" {}
+variable "resource_group_name" {}
